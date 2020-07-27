@@ -1,3 +1,3 @@
-[![Coverage Status](https://coveralls.io/repos/github/iqbal125/react-hooks-testing-complete/badge.svg)](https://coveralls.io/github/iqbal125/react-hooks-testing-complete)
+[![Coverage Status](https://coveralls.io/repos/github/kayot88/react-testing_2020)
 
 A complete guide to testing React Hooks components
