@@ -1,0 +1,41 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: cypress
+    versions:
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.1
+    - 6.8.0
+    - 7.0.0
+    - 7.0.1
+    - 7.1.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: "@testing-library/react-hooks"
+    versions:
+    - 5.0.3
+    - 5.1.0
+    - 5.1.1
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.3
+    - 11.2.5
+  - dependency-name: react-dom
+    versions:
+    - 17.0.1
+  - dependency-name: react
+    versions:
+    - 17.0.1
+  - dependency-name: enzyme-to-json
+    versions:
+    - 3.6.1
